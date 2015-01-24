@@ -1,0 +1,10 @@
+ErrorDocument 404 /~guhu14/phpmvc/Projekt/Anax-MVC/webroot/404.php
+
+
+<IfModule mod_rewrite.c>
+RewriteEngine on
+#RewriteBase /~guhu14/phpmvc/Projekt/Anax-MVC/webroot/
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule .* index.php [L]
+
+</IfModule>

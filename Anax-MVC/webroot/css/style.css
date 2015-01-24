@@ -1,0 +1,195 @@
+/**
+ * General elements
+ */
+
+@import url(figure.css);
+html {background: url(../img/bg.jpg) no-repeat fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;  
+      overflow-y:scroll;}
+
+body {
+  margin: 8px auto;
+  padding: 8px;
+  color: #333;
+  font-family: arial, sans-serif;
+  overflow-y: scroll;
+  width: 1000px;
+  background: -moz-linear-gradient(top,#fff, #54a6c8);
+  background: -webkit-linear-gradient(top,#fff, #54a6c8);
+  border: 1px dashed #fff;
+  overflow:auto;
+
+}
+
+header,footer,nav,article,section,aside,figure,figcaption,output{display:block;}
+
+h1 {
+  font-size: 2.2em;
+}
+h1:first-letter{
+    color: #54a6c8;
+}
+
+
+/**
+ * Layout of the main page elements 
+ */
+#wrapper {
+  margin: 0 auto;
+  width: 980px; 
+  padding: 10px;
+}
+
+
+/**
+ * Layout for header
+ */
+#header {
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.sitetitle {
+  position: absolute;
+  top: 6px;
+  left: 130px;
+  font-size: 48px;
+}
+
+.siteslogan {
+  position: absolute;
+  top: 65px;
+  left: 130px;
+  font-style: italic;
+  color: #666;
+}
+
+
+/**
+ * Layout for main
+ */
+#main {
+  min-height: 20em;
+}
+
+
+/**
+ * Layout for footer
+ */
+#footer {
+  margin-top: 4px;
+  border-top: 1px solid #fff;
+  padding-top: 20px;
+}
+
+.sitefooter {
+  color: #fff;
+}
+
+
+/**
+ * For articles
+ */
+.article1 {
+  width: 100%;
+  padding-right: 1em;
+}
+
+.article1 h1,
+.article1 h2 {
+  border-bottom: 1px solid #54a6c8;
+}
+
+.byline {
+  margin-top: 40px;
+  border-top: 1px dashed #fff;
+  padding-top: 15px;
+  color: #fff;
+}
+
+.byline p {
+  margin-top: 0;
+  float: right;
+}
+
+
+.byline {
+    clear:both;
+    overflow:auto;
+}
+
+.byline img {
+    max-width: 120px;
+    border:solid 1px #fff;
+    border-radius: 10px;
+
+}
+
+.byline figure {
+    float:right;
+    margin-left:20px;
+    margin-bottom:0;
+    max-width: 140px;
+}
+
+a.button {
+    border-top: 1px solid #ffffff;
+    background: #545454;
+    background: -webkit-gradient(linear, left top, left bottom, from(#54a6c8), to(#0e6483));
+    background: -moz-linear-gradient(top, #54a6c8, #0e6483);
+    padding: 5px 10px;
+    margin: 5px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    -webkit-box-shadow: #063f53 0 1px 0;
+    -moz-box-shadow: #063f53 0 1px 0;
+    box-shadow: #063f53 0 1px 0;
+    text-shadow: #063f53 0 1px 0;
+    color: #fff;
+    font-size: 12px;
+    font-family: Georgia, Serif;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+a.button:hover {
+    border-top-color: #063f53;
+    background: #063f53;
+    color: #fff;
+}
+
+a.button:active {
+   border-top-color: #54a6c8;
+   background: #54a6c8;
+   }
+
+a.id {
+    background-color: #54a6c8;
+    padding: 5px;
+    margin: 5px;
+    color: #fff;
+    border-radius: 10px;
+}
+
+a.id:hover {
+    background-color: #fff;
+    color: #54a6c8;
+}
+
+a.webb {
+    background-color: #54a6c8;
+    padding: 5px;
+    margin: 5px;
+    color: #fff;
+    border-radius: 10px;
+}
+
+a.webb:hover {
+    background-color: #fff;
+    color: #54a6c8;
+}
+
